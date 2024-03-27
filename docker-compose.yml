@@ -49,7 +49,7 @@ services:
       POSTGRES_PASSWORD: paperless
 
   webserver:
-    image: youserotonyn/new-repo:to-docsy
+    image: youserotonyn/dalia:latest
     restart: unless-stopped
     depends_on:
       - db
